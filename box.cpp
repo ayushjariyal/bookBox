@@ -57,6 +57,8 @@ int main(){
         cout << "3: Display book box." << endl;
         cout << "4: Exit." << endl;
 
+        cout << endl;
+
         cout << "Enter your choice: " ;
         cin >> a;
 
@@ -78,7 +80,9 @@ int main(){
             cout << endl;
         }
         else{
-            return 0;
+            cout << "Invalid Operation." << endl;
+            cout << endl;
+            
         }
     }
 
